@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ---- reset ---- */ 
+body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #b61924; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./WhatsApp\ Image\ 2023-10-18\ at\ 19.18.44_7e4b1ccd.jpg) no-repeat;
+    background: blur;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+h1{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+.wrapper{
+    width: 420px;
+    background: transparent;    
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px ;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i {
+    /* position: fixed; */
+    top: 20px;
+    right: 20px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+
+.wrapper .btn{  
+    height: 45px;
+    width: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper .btn:hover{
+    background-color: rgba(255, 255, 255, .2);
+    animation-delay: 2s;
+
+}
+
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+    text-align: center;
+}
+
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+
+.wrapper h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.wrapper box-icon{
+    position: fixed;
+    margin-top: 13px;
+    margin-left: -35px;
+}

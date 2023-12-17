@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/database.css">
+    <script src="../javascript/database.js"></script>
+
+                    <!-- Include Firebase and Chart.js -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <header>
+        <nav class="navbar">
+            <ul>
+                <li><p>Profound In.</p></li>
+                <li><div class="search">
+                    Search Anything About Your Bus.
+                </div></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+
+
+    <div class="left-menu">
+        <h2>No. of Buses.</h2>
+        <ul class="buses">
+            <li></li>
+        </ul>
+        <a href="./buses.html">Add Buses</a>
+    </div>
+
+
+    <section class="Information">
+        <div class="content">
+            <canvas id="myBarChart" width="400" height="200"></canvas>
+                <table>
+                    <thead>
+                        <th>S. no</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>No. of passangers</th>
+                        <th>No. of Km</th>
+                    </thead>
+                        <tbody id="tbody1"></tbody>
+                </table>
+        </div>
+    </section>
+</body>
+</html>
